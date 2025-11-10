@@ -1,0 +1,64 @@
+# KiCad 6/7/8 project files to keep:
+# *.kicad_pro, *.kicad_sch, *.kicad_pcb, *.kicad_sym, *.kicad_mod
+
+# Generated files
+*.net
+*.xml
+*.cmp
+*.zip
+*.bak
+*.bck
+*.tmp
+*.lock
+*.dcm
+*.cache
+*.cache.lib
+*-cache.lib
+*-cache.kicad_sch
+*-backups/
+
+# Simulation and spice outputs
+*.raw
+*.out
+*.log
+
+# Fabrication output
+*.gbr
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.drl
+*.map
+*.pos
+*.csv
+*.step
+*.stp
+
+# 3D model cache
+3dmodels/
+*.wrl
+*.step
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+__pycache__/
+
+# KiCad autosave and backup
+_autosave-*
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# KiCad 9 temporary and metadata
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_prl
+*.kicad_pcb-bck
+fp-info-cache
+sym-lib-table-bak
